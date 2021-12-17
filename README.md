@@ -1,5 +1,5 @@
 # Starting Point
 
-`npm init`
+Run `npm init`
 
-`npm install`
+Run `npm install`
