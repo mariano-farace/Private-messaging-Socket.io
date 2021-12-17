@@ -1,4 +1,4 @@
-# Socket.io-Get-Started
+# Starting Point
 
 Testing socket.io with the example provided on the official site
 
