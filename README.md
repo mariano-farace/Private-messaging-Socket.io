@@ -1,7 +1,5 @@
 # Starting Point
 
-Testing socket.io with the example provided on the official site
+`npm init`
 
-Git Ignore like node
-Linter
-nodemon y su script
+`npm install`
