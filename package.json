@@ -18,10 +18,10 @@
     "!**/*.tsbuildinfo"
   ],
   "directories": {
-    "doc": "docs/",
-    "example": "example/",
-    "lib": "lib/",
-    "test": "test/"
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   },
   "type": "commonjs",
   "main": "./dist/index.js",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/socketio/socket.io"
+    "url": "git://github.com/socketio/socket.io.git"
   },
   "scripts": {
     "compile": "rimraf ./dist && tsc",
@@ -69,27 +69,20 @@
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.0.0"
   },
   "contributors": [
-    {
-      "name": "Guillermo Rauch",
-      "email": "rauchg@gmail.com"
-    },
-    {
-      "name": "Arnout Kazemier",
-      "email": "info@3rd-eden.com"
-    },
-    {
-      "name": "Vladimir Dronnikov",
-      "email": "dronnikov@gmail.com"
-    },
-    {
-      "name": "Einar Otto Stangvik",
-      "email": "einaros@gmail.com"
-    }
+    "Guillermo Rauch <rauchg@gmail.com>",
+    "Arnout Kazemier <info@3rd-eden.com>",
+    "Vladimir Dronnikov <dronnikov@gmail.com>",
+    "Einar Otto Stangvik <einaros@gmail.com>"
   ],
   "engines": {
     "node": ">=10.0.0"
   },
   "tsd": {
     "directory": "test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/socketio/socket.io/issues"
+  },
+  "homepage": "https://github.com/socketio/socket.io#readme",
+  "author": ""
 }
