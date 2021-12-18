@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "private-messaging-socket.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Run `npm init`",
   "main": "index.js",
   "scripts": {
     "serve": "nodemon server.js"
@@ -16,5 +16,15 @@
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariano-farace/Private-messaging-Socket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariano-farace/Private-messaging-Socket.io/issues"
+  },
+  "homepage": "https://github.com/mariano-farace/Private-messaging-Socket.io#readme"
 }
